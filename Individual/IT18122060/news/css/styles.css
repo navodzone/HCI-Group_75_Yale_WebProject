@@ -1,0 +1,68 @@
+.wrapper{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "Block1 Block2";
+}
+.block-1{
+    grid-area: Block1;
+    margin: auto;
+    background-color: white;
+}
+.block-2{
+    grid-area: Block2;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: #e8e7e6 2px solid;
+    width: 300px;
+    margin: 0 auto;
+
+}
+a:hover {
+    text-decoration: none;
+}
+@media (max-width: 768px){
+    .wrapper{
+        grid-template-areas: "Block1""Block2";
+    }
+    .block-1{
+        grid-area: Block1;
+    }
+    .block-2{
+        grid-area: Block2;
+    }
+    #newsLogo{
+        width: 400px !important;
+    }
+}
+.card a{
+    color: #696b6d !important;
+    text-decoration:none !important;
+}
+.blocks{
+    padding-top: 10px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "Block-1""Block-2";
+}
+.inputEmail{
+    grid-area: Block-1;
+}
+.newsBtn{
+    grid-area: Block-2;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+}
+
+.card-text{
+    font-size: x-large;
+    font-weight: 500;
+}
+.bg-dark-new{
+    background-color: #343a4085 !important;
+}
+.newsletterS{
+    display: none;
+}

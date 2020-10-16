@@ -1,0 +1,101 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>News - YALE School of Art</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/articulate.min.js"></script>
+    <!-- Custom styles for this template -->
+    <link href="./css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="navbar navbar-light bg-light box-shadow">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong>YALE SCHOOL OF ART</strong>
+            </a>
+            <div class="dropdown" style="margin-right: 4px; margin-left: auto">
+                <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a href=".././about.php" class="dropdown-item" onclick="stop()" >
+                        About
+                    </a>
+                    <a href="../history/index.html" class="dropdown-item" onclick="stop()" >
+                        History
+                    </a>
+                    <a href="../about/summer/index.html" class="dropdown-item" onclick="stop()" >
+                        Summer Programme
+                    </a>
+                    <a href="../support/index.html" class="dropdown-item" onclick="stop()" >
+                        Support the school
+                    </a>
+                </div>
+            </div>
+            <div style="margin-left: 0;margin-right: 0">
+
+                <a href=".././apply.html" onclick="stop()" >
+                    <button class="btn btn-outline-dark">Apply</button>
+                </a>
+                <a href=".././gallery.html">
+                    <button class="btn btn-outline-dark">Gallery</button>
+                </a>
+                <a href="index.html" >
+                    <button class="btn btn-outline-dark active">News</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<main role="main">
+    <div style="background: #e9ecef; padding-top: 16px;">
+        <div class="container">
+
+            <div class='row'>
+                <div class='col-12' style='height: 600px; padding-left:0; padding-right:0;background-position: top; background-image: url(images/1.jpg);background-size: cover;background-repeat: no-repeat; color: white'><div class='col-12 bg-dark-new'><div class='row'><div class='col-1' style='margin: auto'><a href='index.html' onclick='stop()' class='btn btn-primary'>Back</a></div><h3 class='col-9' style='padding: 0.75rem;text-align: center;'>Yale school of art mourns the passing of william bailey</h3><div class='col-2' style='margin: auto;'><p style='text-align: right; margin: 0'>2020-04-17</p></div></div> </div></div>
+                <div class='card mb-4 box-shadow'>
+                    <div class='card-body'><p class='col-12' id='article' style='padding-top:20px;color: rgb(41, 41, 41); font-size: 21px;; letter-spacing: -0.003em;line-height: 32px;font-weight: 400;'> <button style='margin-right: 7px;' onclick='speak()'><img style='width: 26px;' src='./images/noise.png'></button>We are saddened to share the news with the School of Art community that William Bailey, distinguished alumnus, former dean and faculty member, as well as the Kingman Brewster Professor Emeritus of Art, passed away on April 13, 2020 at his home in Branford, Connecticut due to complications from an existing illness. Regarded in his art practice for his meditative approach to realism, Bailey was an esteemed member of the Yale School of Art faculty and community, and he played a pivotal role in informing and developing its pedagogy for nearly three decades.<br />
+                        <br />
+                        Having earned both his BFA in 1955 and his MFA in 1957 at what was then the Yale School of Art and Architecture, William “Bill” Bailey joined the faculty as a Professor of Art in 1969 before his appointment as Dean from 1974 to 1975. During his time as Professor and then as Dean, Bailey was essential in fostering a sense of academic continuity as the institution formally became designated as the Yale School of Art when the School of </p></div></div>
+            </div>
+
+            <script>
+                function speak(){
+                    $('#article').articulate('speak');
+                };
+                function stop(){
+                    $().articulate('stop');
+                }
+            </script>
+        </div>
+    </div>
+</main>
+<footer class="text-muted p-3">
+    <div class="container">
+        <p class="float-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>© 2020 Yale School Of Art</p>
+    </div>
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/vendor/popper.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/vendor/holder.min.js"></script>
+
+</body>
+</html>
+
