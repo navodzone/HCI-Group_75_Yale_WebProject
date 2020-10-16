@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<title>Yale School of Art | Paint</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link href="css/xopixel.css" rel="stylesheet" type="text/css">
+ 
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: rgb(43 199 29 / 26%);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+body{
+  background: url('images/white-unsplash-9d0375d2.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+}
+.drop-zone {
+  max-width: 200px;
+  height: 200px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 4px dashed #009578;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+
+
+</style>
+<body>
+<header class="xopixel-header">
+		<nav>
+			<a class="xopixel-back" href="index.html" title="Back"></a> 
+		</nav>
+		<h1>Gallery | Yale School of Art Exibition</h1>
+    </header> 
+<a href="EditDetails4.html">
+		<button class="button" style="vertical-align:middle"><span>Edit </span></button></a>	
+	<section>
+		<div style="float:left;">
+			<img src = "images/ib-art1_001.jpg" width = "400px" height = "400px" style="border-radius: 50%;">
+		</div>
+		
+		<div style="float:right;">
+			<img src = "images/Beautiful-Butterfly-Painting-Ideas.jpg" width = "300px" height = "300px" style="border-radius: 50%;" >
+		</div>
+		<div style="background-image: url('images/white-unsplash-9d0375d2.jpg');">
+		<h2>Yale School of Art Exibition<h2><br>
+		<p>The School of Art Exibition in Green Hall provide a year-round forum for the Exibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.
+		The School of Art Exibition in Green Hall provide a year-round forum for the Exibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.
+		The School of Art Exibition in Green Hall provide a year-round forum for the Exibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.
+		<br><br>The School of Art Exibition in Green Hall provide a year-round forum for the Exibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.
+		<br><br>The School of Art Exibition in Green Hall provide a year-round forum for the Exibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.</p>
+		</div>
+	</section>
+<div class="main">
+
+ <!--cards -->
+<form>
+  <div class="card">
+
+<div class="drop-zone">
+   <span class="drop-zone__prompt">Drop file here or click to upload*</span>
+    <input type="file" name="myFile" class="drop-zone__input" required="">
+	
+</div>
+
+<div class="title">
+ <h2>
+<input type="text" class="input" placeholder="Write Title Here*" required=""></h2>
+</div>
+<div class="des">
+<h2>
+<input type="text" class="input" placeholder="Write Desccription Here...*" required=""></h2>
+<button>Submit</button>
+</div>
+</form>
+</div>
+<br>
+
+
+
+<div class="card">
+
+<div class="image">
+   <img src="images/Screen-Shot-2020-03-13-at-2.12.14-PM.png">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="images/z_p18-Art.jpg">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="images/5435.jpg">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="images/images (2).jfif">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+
+<div class="card">
+
+<div class="image">
+   <img src="images/19511311b0fe0761cf00f0ef7d0ac1cd.jpg">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="images/images (3).jfif">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+<div class="card">
+
+<div class="image">
+   <img src="images/5cd3b85e2f6435294ec76a01a9753176.png">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+
+</div>
+</div>
+
+
+<div class="card">
+
+<div class="image">
+   <img src="images/25120315-royal-academy-summer-exhibition_cover_1999x1333.jpg">
+</div>
+<div class="title">
+ <h1>
+Yale Art Gallery Exibition</h1>
+</div>
+<div class="des">
+ <p>This is the Yale Art Gallery Exibition.it is Organized by...</p>
+<button>Read More...</button>
+<button>Edit</button>
+<button>Delete</button>
+</div>
+</div>
+<!--cards -->
+
+
+
+
+</div>
+<script>
+document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
+  const dropZoneElement = inputElement.closest(".drop-zone");
+
+  dropZoneElement.addEventListener("click", (e) => {
+    inputElement.click();
+  });
+
+  inputElement.addEventListener("change", (e) => {
+    if (inputElement.files.length) {
+      updateThumbnail(dropZoneElement, inputElement.files[0]);
+    }
+  });
+
+  dropZoneElement.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    dropZoneElement.classList.add("drop-zone--over");
+  });
+
+  ["dragleave", "dragend"].forEach((type) => {
+    dropZoneElement.addEventListener(type, (e) => {
+      dropZoneElement.classList.remove("drop-zone--over");
+    });
+  });
+
+  dropZoneElement.addEventListener("drop", (e) => {
+    e.preventDefault();
+
+    if (e.dataTransfer.files.length) {
+      inputElement.files = e.dataTransfer.files;
+      updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
+    }
+
+    dropZoneElement.classList.remove("drop-zone--over");
+  });
+});
+
+/**
+ * Updates the thumbnail on a drop zone element.
+ *
+ * @param {HTMLElement} dropZoneElement
+ * @param {File} file
+ */
+function updateThumbnail(dropZoneElement, file) {
+  let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
+
+  // First time - remove the prompt
+  if (dropZoneElement.querySelector(".drop-zone__prompt")) {
+    dropZoneElement.querySelector(".drop-zone__prompt").remove();
+  }
+
+  // First time - there is no thumbnail element, so lets create it
+  if (!thumbnailElement) {
+    thumbnailElement = document.createElement("div");
+    thumbnailElement.classList.add("drop-zone__thumb");
+    dropZoneElement.appendChild(thumbnailElement);
+  }
+
+  thumbnailElement.dataset.label = file.name;
+
+  // Show thumbnail for image files
+  if (file.type.startsWith("image/")) {
+    const reader = new FileReader();
+
+    reader.readAsDataURL(file);
+    reader.onload = () => {
+      thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
+    };
+  } else {
+    thumbnailElement.style.backgroundImage = null;
+  }
+}
+
+</script>
+</body>
+</html>

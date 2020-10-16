@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<title>Yale School of Art|Edit Details</title>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link href="css/xopixel.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/styles.css">
+	<style>
+label {
+  padding: 16px 48px;
+  border: 3px solid #ffc872;
+  border-radius: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ffc872;  
+}
+label:hover{
+	transform: scale(1.04);
+}
+
+label:active{
+	background-color: #ffc872;
+	color: #242424
+}
+
+label.span{
+	font-weight: normal;
+}
+xopixel-header nav a {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 2.5em;
+    height: 2.5em;
+    background: 0 0;
+    border-radius: 100%;
+    margin: 0 .5rem;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+}	
+</style>
+
+	
+</head>
+<body>
+
+
+<header class="xopixel-header">
+		<nav>
+			<a class="xopixel-back" href="Paint.html" title="Back"></a> 
+		</nav>
+		<h1>Gallery | Edit Details</h1>
+</header> 
+
+
+<div class="wrapper">
+  <div class="title">
+    <h1>Edit Details</h1>
+  </div>
+  <div>
+  <form>
+    <div class="input-fields">
+      <input type="text" class="input" placeholder="Title*" required=""><br><br>
+	<div class="msg" required="">
+      <textarea placeholder="Description*" required=""></textarea><br><br>
+    </div>
+	  <input type="file" id="file" name="" hidden required="">
+	  <label for="file" type="file" id="selector"> Select File*</label><br><br>
+	<button class="btn btn-primary" style="width: 53.5%; position: bottom; margin-left: 15%;">Edit</button>
+   </form>
+	
+    
+    
+  </div>
+</div>
+<script>
+		var loader = function(e){
+			let file  = e.target.files;
+			let show = "<span>Selected File : </span>" + file[0].name;
+			let output = document.getElementById("selector");
+			output.innerHTML = show;
+			output.classList.add("active");
+		};
+		
+		let fileInput = document.getElementById("file");
+		fileInput.addEventListener("change",loader);
+		
+	</script>		
+</body>
+</html>
