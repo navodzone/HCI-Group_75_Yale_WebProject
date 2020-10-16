@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.transcript{
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: url(images/writingPad2.jpg);
+	background-size: cover;
+	}
+.transcript .content{
+	max-width: 800px;
+	text-align: left;
+}
+
+.transcript .content h1{
+	font-size: 50px;
+	font-weight: bold;
+	color: #000000;
+}
+.transcript .content p{
+	font-size: 20px;
+	color: #000000;
+	padding-top: 15px;
+}
+

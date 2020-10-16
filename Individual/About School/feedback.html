@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedBack Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="feedbackStyle.css">
+</head>
+<body>
+
+	<div class="view">
+		<img src="images/img1.jpg">
+	</div>
+	<div class="container">
+		<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h1 class="text-center mt-5 font-weight-bold" style="color: #ffcc00">Feedback</h1>
+			<hr class="bg-white">
+			<h6 class="text-center" style="color: #ffcc00">Please write your feedback here</h6>
+			<h3 style="color: #ffff">Rate our Website</h3>
+
+			<form>
+				<label class="radio-inline"><input type="radio" name="experience" value="poor">Poor</label>
+				<label class="radio-inline"><input type="radio" name="experience" value="Poor">Average</label>
+				<label class="radio-inline"><input type="radio" name="experience" value="Poor">Good</label>
+		</div>
+		</div>	
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<label class="col-md-4">Full Name*<br>
+				<input type="text" id="text" required=""></label>
+
+			<label class="col-md-4">Email*<br>
+				<input type="text" id="text" required=""></label>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<label class="col-md-4">Age*<br>
+				<input type="text" id="text" required=""></label>
+
+			<label class="col-md-4">Phone*<br>
+				<input type="text" id="text" required=""></label>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<label class="col-md-8">Message*<br>
+				<textarea id="message" required="" cols="48" rows="5"></textarea></label>
+		</div>
+
+		<div class="row">
+			<div class="col-md-2"></div>
+			<button class="btn btn-primary" style="width: 53.5%; position: absolute; margin-left: 11%;">Submit</button><br><br><br><br>
+		</div>
+		</form>
+	</div>
+</body>
+</html>
